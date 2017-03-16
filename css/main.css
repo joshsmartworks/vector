@@ -1,0 +1,151 @@
+html, body {
+  color: #555; }
+
+h1 {
+  font-size: 4em;
+  padding-top: 60px;
+  font-weight: 700; }
+
+h2 {
+  font-size: 2.4em;
+  margin-bottom: 30px;
+  text-align: center; }
+
+/*-------------------------------- Nav ---------------------------------------------- */
+.top-bar {
+  position: relative;
+  background: #00AEF0;
+  height: 35px;
+  overflow: hidden;
+  padding-top: 6px; }
+  .top-bar ul li a {
+    color: #f7f7f7; }
+
+.navbar-static-top {
+  background: #f7f7f7;
+  height: 90px;
+  border: none; }
+
+.navbar-brand {
+  padding-top: 35px;
+  font-size: 2.4em;
+  font-weight: 700; }
+
+.navbar-right {
+  padding-top: 20px; }
+
+/*-------------------------------- Home Banner ---------------------------------------------- */
+.owl-carousel {
+  position: relative;
+  margin-top: -40px;
+  margin-bottom: 80px; }
+  .owl-carousel .item {
+    width: 1400px; }
+
+.loop-1 {
+  height: 90vh;
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background: url(../img/home-slideshow.jpg); }
+  .loop-1 p {
+    font-size: 1.4em;
+    margin-bottom: 40px; }
+  .loop-1 a {
+    border-radius: 30px;
+    padding: 20px 30px;
+    background: #00AEF0;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2 ease;
+            transition: all 0.2 ease; }
+    .loop-1 a:hover {
+      background: none;
+      color: #00AEF0;
+      border: 1px solid #00AEF0; }
+
+.loop-2 {
+  height: 90vh;
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background: url(../img/3.jpg); }
+  .loop-2 p {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    margin-right: 15px; }
+  .loop-2 a {
+    border-radius: 30px;
+    padding: 20px 30px;
+    background: #00AEF0;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2 ease;
+            transition: all 0.2 ease; }
+    .loop-2 a:hover {
+      background: none;
+      color: #00AEF0;
+      border: 1px solid #00AEF0; }
+
+/*-------------------------------- About Section ---------------------------------------------- */
+.about {
+  margin-bottom: 50px; }
+  .about h2 span {
+    color: #00AEF0; }
+  .about p {
+    color: #555;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    margin-bottom: 20px; }
+
+/*-------------------------------- How we Works Section ---------------------------------------------- */
+.vo-works {
+  margin-bottom: 80px; }
+  .vo-works h2 {
+    margin-bottom: 40px; }
+    .vo-works h2 span {
+      color: #00AEF0; }
+  .vo-works i {
+    color: #00AEF0; }
+  .vo-works .vo-works-icon-plus-circle {
+    border-width: 2px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 25px auto;
+    padding-top: 30px; }
+  .vo-works h4 {
+    font-size: 1.6em;
+    margin-bottom: 20px; }
+
+/*-------------------------------- How we Works Section ---------------------------------------------- */
+.vo-services {
+  margin-bottom: 80px; }
+  .vo-services h2 {
+    margin-bottom: 40px; }
+    .vo-services h2 span {
+      color: #00AEF0; }
+
+.vo-services-block img {
+  width: 100%; }
+
+.vo-we-serve > ul > li > i {
+  color: #00AEF0;
+  font-size: 1.4em;
+  padding-right: 15px; }
+
+.vo-we-serve li a {
+  font-size: 1.4em;
+  color: #555;
+  line-height: 40px; }
+
+/*# sourceMappingURL=main.css.map */
