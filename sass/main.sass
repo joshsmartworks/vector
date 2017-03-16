@@ -156,16 +156,42 @@ h2
             color: $main-color
 .vo-services-block img
     width: 100%
+    
+.vo-we-serve
+    margin-bottom: 80px
+    li a
+        font-size: 1.4em
+        color: #555
+        line-height: 40px
 
 .vo-we-serve>ul>li>i 
     color: $main-color
     font-size: 1.4em
     padding-right: 15px
     
-.vo-we-serve li a
-    font-size: 1.4em
-    color: #555
-    line-height: 40px
+.vo-service-bg-call
+    background: url(../img/m31.jpg)
+    height: 40vh
+    background-size: cover
+    background-position: center left
+    h4
+        color: $white
+        font-size: 1.8em
+        padding: 100px 0 0 0
+        margin-left: 50px
+    .button-contact
+        margin-top: 115px
+    a
+        +button(0, 20px 30px, none, $white)
+        font-size: 1.1em
+        font-weight: 700
+        border: 1px solid $white
+        text-transform: uppercase
+        transition: all .2 ease
+        &:hover
+            background: $main-color
+            color: $white
+            border: 1px solid $main-color  
 
    
   

@@ -138,14 +138,46 @@ h2 {
 .vo-services-block img {
   width: 100%; }
 
+.vo-we-serve {
+  margin-bottom: 80px; }
+  .vo-we-serve li a {
+    font-size: 1.4em;
+    color: #555;
+    line-height: 40px; }
+
 .vo-we-serve > ul > li > i {
   color: #00AEF0;
   font-size: 1.4em;
   padding-right: 15px; }
 
-.vo-we-serve li a {
-  font-size: 1.4em;
-  color: #555;
-  line-height: 40px; }
+.vo-service-bg-call {
+  background: url(../img/m31.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center left; }
+  .vo-service-bg-call h4 {
+    color: #f7f7f7;
+    font-size: 1.8em;
+    padding: 100px 0 0 0;
+    margin-left: 50px; }
+  .vo-service-bg-call .button-contact {
+    margin-top: 115px; }
+  .vo-service-bg-call a {
+    border-radius: 0;
+    padding: 20px 30px;
+    background: none;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    border: 1px solid #f7f7f7;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2 ease;
+            transition: all 0.2 ease; }
+    .vo-service-bg-call a:hover {
+      background: #00AEF0;
+      color: #f7f7f7;
+      border: 1px solid #00AEF0; }
 
 /*# sourceMappingURL=main.css.map */
