@@ -8,7 +8,7 @@ $white: #f7f7f7
 =loopCarousel()
     height: 90vh
     background-size: cover
-    background-position: center left 
+    background-position: center 
     background-repeat: no-repeat
 
 =button($rad,$padding,$bg,$color)
@@ -63,7 +63,20 @@ hr
     
 .navbar-right
     padding-top: 20px
-    
+
+.top-fixed 
+    position: fixed
+    top: 0
+    height: 80px
+    margin-top: -10px
+    border-bottom: 1px solid #e3e3e3
+    z-index: 99
+    border-radius: 0
+    width: 100%
+    overflow-y: hidden
+    transition-property: all
+    transition-duration: .5s ease
+        transition-timing-function: cubic-bezier(0, 1, 0.5, 1)    
     
 /*-------------------------------- Home Banner ----------------------------------------------*/   
 
@@ -81,6 +94,8 @@ hr
     p
         font-size: 1.4em
         margin-bottom: 40px
+        margin-right: 15px
+
     a
         +button(30px, 20px 30px, $main-color, #f7f7f7)
         font-size: 1.1em
@@ -90,11 +105,11 @@ hr
         &:hover
             background: none
             color: $main-color
-            border: 1px solid $main-color    
-
+            border: 1px solid $main-color  
+        
 .loop-2
     +loopCarousel()
-    background: url(../img/3.jpg)
+    background: url(../img/slideshow-accordion1.jpg)
     p
         font-size: 1.4em
         margin-bottom: 40px
@@ -108,8 +123,8 @@ hr
         &:hover
             background: none
             color: $main-color
-            border: 1px solid $main-color    
-        
+            border: 1px solid $main-color          
+
         
 /*-------------------------------- About Section ----------------------------------------------*/   
 
@@ -328,6 +343,9 @@ footer
     padding: 20px 0 10px 0
         
     
+  
+        
+
     
 
 

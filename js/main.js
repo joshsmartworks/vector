@@ -1,7 +1,26 @@
+var num= 80;
+
+$(function(){
+    $(window).bind('scroll', function(){
+        if($(window).scrollTop() > num){
+            $('.navbar-default').addClass('top-fixed');
+        }else{
+            $('.navbar-default').removeClass('top-fixed');
+        }
+    });
+});
+
+
+
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
-        loop:true,
+        loop: true,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         margin:10,
+        autoplay: true,
+        autoplayTimeout:5000, 
+        autoWidth:true,
         responsiveClass:true,
         responsive:{
             0:{
@@ -13,12 +32,7 @@ $(document).ready(function(){
                 nav:false
             },
             1000:{
-                items:3,
-                nav:true,
-                loop:true,
-                autoplay:true,
-                autoplayTimeout:5000,
-                autoWidth:true,
+                items: 1,
             }
         }
     })
