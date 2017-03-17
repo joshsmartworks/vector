@@ -51,3 +51,31 @@ wow.init();
     });
 
 })(jQuery);
+
+
+$(function() {
+    $(".expand").on( "click", function() {
+        // $(this).next().slideToggle(200);
+        $expand = $(this).find(">:first-child");
+
+        if($expand.text() == "+") {
+            $expand.text("-");
+        } else {
+            $expand.text("+");
+        }
+    });
+});
+
+
+
+function initMap() {
+    var uluru = {lat: 33.863011, lng: -118.351746};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 14,
+        center: uluru
+    });
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    });
+}

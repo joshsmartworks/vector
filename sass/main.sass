@@ -36,6 +36,10 @@ h2
     margin-bottom: 30px
     text-align: center
     
+hr
+    margin-top: 50px    
+
+    
 
 /*-------------------------------- Nav ----------------------------------------------*/   
     
@@ -119,7 +123,14 @@ h2
         color: #555
         font-size: 1.6em
         letter-spacing: 2px
-        margin-bottom: 20px        
+        margin-bottom: 20px  
+        
+.vo-about-content
+    margin-top: 60px
+    img
+        width: 100%
+    p
+        font-size: .9em
         
         
 /*-------------------------------- How we Works Section ----------------------------------------------*/   
@@ -154,8 +165,10 @@ h2
         margin-bottom: 40px
         span
             color: $main-color
-.vo-services-block img
-    width: 100%
+.vo-services-block
+    margin-bottom: 30px
+    img
+        width: 100%
     
 .vo-we-serve
     margin-bottom: 80px
@@ -192,6 +205,131 @@ h2
             background: $main-color
             color: $white
             border: 1px solid $main-color  
+        
+/*-------------------------------- Support ----------------------------------------------*/   
 
-   
+.vo-support
+    margin-bottom: 80px
+    h2
+        margin-bottom: 20px
+        span
+            color: $main-color
+            
+.vo-support-content
+    margin-top: 50px
+    h4
+        font-size: 1.4em
+    h3
+        font-size: 2em
+        margin-bottom: 20px
+        
+.panel-body p
+    font-size: 1.2em
+    line-height: 1.6em
+    
+/*-------------------------------- Careers ----------------------------------------------*/   
+
+.vo-career
+    margin-bottom: 150px
+    h2
+        margin-bottom: 20px
+        span
+            color: $main-color
+    h4
+        margin-bottom: 30px
+    p
+        margin-bottom: 60px
+    
+.button-career a
+    +button(0, 20px 30px, $main-color, $white)
+    font-size: 1.1em
+    font-weight: 700
+    border: 1px solid $main-color
+    text-transform: uppercase
+    transition: all .2 ease
+    &:hover
+        background: #007dac
+        color: $white
+        border: 1px solid #007dac 
+    
+/*-------------------------------- Contacts ----------------------------------------------*/   
+
+.vo-contact
+    background: #f4f4f4
+    h2
+        margin-bottom: 60px
+    button
+        +button(0, 15px 30px, $main-color, $white)
+        font-size: 1.1em
+        font-weight: 700
+        border: 1px solid $main-color
+        text-transform: uppercase
+        transition: all .2 ease
+        &:hover
+            background: #007dac
+            color: $white
+            border: 1px solid #007dac
+.vo-contact-form
+    padding-top: 80px
+        
+form 
+    label
+        margin-left: 4px
+        font-size: 1.3em
+    .form-control
+        padding: 20px 14px
+        font-size: 16px
+        
+.vo-contact-map
+    margin-top: 70px
+    
+.media-body p
+    margin-left: 10px
+    font-size: 1.3em
+    
+.media-heading
+    font-size: 2em
+    margin-left: 10px
+    
+.vo-contact-request
+    padding: 30px 0 50px 0
+    background: #007dac
+    h4
+        font-size: 2em
+        color: $white
+        margin-bottom: 30px
+    a
+        +button(0, 15px 20px, none, $white)
+        font-size: 1.1em
+        font-weight: 700
+        border: 1px solid $white
+        text-transform: uppercase
+        transition: all .2 ease
+        &:hover
+            background: $main-color
+            color: $white
+            border: 1px solid $main-color  
+        
+        
+/*-------------------------------- Footer ----------------------------------------------*/   
+
+footer
+    padding: 40px 0 0 0
+    background: #1a1e21
+    color: $white
+    h4
+        font-size: 1.6em
+    ul li,
+    ul li a,    
+    p    
+        color: #777
+.footer-social
+    margin-top: 30px
+    padding: 20px 0 10px 0
+        
+    
+    
+
+
+
   

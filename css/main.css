@@ -11,6 +11,9 @@ h2 {
   margin-bottom: 30px;
   text-align: center; }
 
+hr {
+  margin-top: 50px; }
+
 /*-------------------------------- Nav ---------------------------------------------- */
 .top-bar {
   position: relative;
@@ -106,6 +109,13 @@ h2 {
     letter-spacing: 2px;
     margin-bottom: 20px; }
 
+.vo-about-content {
+  margin-top: 60px; }
+  .vo-about-content img {
+    width: 100%; }
+  .vo-about-content p {
+    font-size: 0.9em; }
+
 /*-------------------------------- How we Works Section ---------------------------------------------- */
 .vo-works {
   margin-bottom: 80px; }
@@ -135,8 +145,10 @@ h2 {
     .vo-services h2 span {
       color: #00AEF0; }
 
-.vo-services-block img {
-  width: 100%; }
+.vo-services-block {
+  margin-bottom: 30px; }
+  .vo-services-block img {
+    width: 100%; }
 
 .vo-we-serve {
   margin-bottom: 80px; }
@@ -179,5 +191,140 @@ h2 {
       background: #00AEF0;
       color: #f7f7f7;
       border: 1px solid #00AEF0; }
+
+/*-------------------------------- Support ---------------------------------------------- */
+.vo-support {
+  margin-bottom: 80px; }
+  .vo-support h2 {
+    margin-bottom: 20px; }
+    .vo-support h2 span {
+      color: #00AEF0; }
+
+.vo-support-content {
+  margin-top: 50px; }
+  .vo-support-content h4 {
+    font-size: 1.4em; }
+  .vo-support-content h3 {
+    font-size: 2em;
+    margin-bottom: 20px; }
+
+.panel-body p {
+  font-size: 1.2em;
+  line-height: 1.6em; }
+
+/*-------------------------------- Careers ---------------------------------------------- */
+.vo-career {
+  margin-bottom: 150px; }
+  .vo-career h2 {
+    margin-bottom: 20px; }
+    .vo-career h2 span {
+      color: #00AEF0; }
+  .vo-career h4 {
+    margin-bottom: 30px; }
+  .vo-career p {
+    margin-bottom: 60px; }
+
+.button-career a {
+  border-radius: 0;
+  padding: 20px 30px;
+  background: #00AEF0;
+  color: #f7f7f7;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 700;
+  border: 1px solid #00AEF0;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2 ease;
+          transition: all 0.2 ease; }
+  .button-career a:hover {
+    background: #007dac;
+    color: #f7f7f7;
+    border: 1px solid #007dac; }
+
+/*-------------------------------- Contacts ---------------------------------------------- */
+.vo-contact {
+  background: #f4f4f4; }
+  .vo-contact h2 {
+    margin-bottom: 60px; }
+  .vo-contact button {
+    border-radius: 0;
+    padding: 15px 30px;
+    background: #00AEF0;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    border: 1px solid #00AEF0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2 ease;
+            transition: all 0.2 ease; }
+    .vo-contact button:hover {
+      background: #007dac;
+      color: #f7f7f7;
+      border: 1px solid #007dac; }
+
+.vo-contact-form {
+  padding-top: 80px; }
+
+form label {
+  margin-left: 4px;
+  font-size: 1.3em; }
+form .form-control {
+  padding: 20px 14px;
+  font-size: 16px; }
+
+.vo-contact-map {
+  margin-top: 70px; }
+
+.media-body p {
+  margin-left: 10px;
+  font-size: 1.3em; }
+
+.media-heading {
+  font-size: 2em;
+  margin-left: 10px; }
+
+.vo-contact-request {
+  padding: 30px 0 50px 0;
+  background: #007dac; }
+  .vo-contact-request h4 {
+    font-size: 2em;
+    color: #f7f7f7;
+    margin-bottom: 30px; }
+  .vo-contact-request a {
+    border-radius: 0;
+    padding: 15px 20px;
+    background: none;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    border: 1px solid #f7f7f7;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2 ease;
+            transition: all 0.2 ease; }
+    .vo-contact-request a:hover {
+      background: #00AEF0;
+      color: #f7f7f7;
+      border: 1px solid #00AEF0; }
+
+/*-------------------------------- Footer ---------------------------------------------- */
+footer {
+  padding: 40px 0 0 0;
+  background: #1a1e21;
+  color: #f7f7f7; }
+  footer h4 {
+    font-size: 1.6em; }
+  footer ul li,
+  footer ul li a,
+  footer p {
+    color: #777; }
+
+.footer-social {
+  margin-top: 30px;
+  padding: 20px 0 10px 0; }
 
 /*# sourceMappingURL=main.css.map */
