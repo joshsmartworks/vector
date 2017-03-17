@@ -53,6 +53,14 @@ hr {
           transition-duration: 0.5s ease;
     transition-duration-transition-timing-function: cubic-bezier(0, 1, 0.5, 1); }
 
+.navbar-toggle {
+  margin-top: 25px; }
+
+#navbar {
+  margin-top: 23px;
+  z-index: 999999;
+  background: black; }
+
 /*-------------------------------- Home Banner ---------------------------------------------- */
 .owl-carousel {
   position: relative;
@@ -187,10 +195,10 @@ hr {
   .vo-service-bg-call h4 {
     color: #f7f7f7;
     font-size: 1.8em;
-    padding: 100px 0 0 0;
+    padding: 100px 0 50px 0;
     margin-left: 50px; }
   .vo-service-bg-call .button-contact {
-    margin-top: 115px; }
+    margin: 115px 0 50px 0; }
   .vo-service-bg-call a {
     border-radius: 0;
     padding: 20px 30px;
@@ -343,5 +351,14 @@ footer {
 .footer-social {
   margin-top: 30px;
   padding: 20px 0 10px 0; }
+
+@media screen and (max-width: 1000px) {
+  .vo-service-bg-call h4 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0 20px 0; }
+  .vo-service-bg-call .button-contact {
+    text-align: center;
+    margin: 20px auto; } }
 
 /*# sourceMappingURL=main.css.map */

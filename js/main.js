@@ -20,7 +20,6 @@ $(document).ready(function(){
         margin:10,
         autoplay: true,
         autoplayTimeout:5000, 
-        autoWidth:true,
         responsiveClass:true,
         responsive:{
             0:{
@@ -28,11 +27,12 @@ $(document).ready(function(){
                 nav:true
             },
             600:{
-                items:3,
+                items:1,
                 nav:false
             },
             1000:{
                 items: 1,
+                autoWidth:true,
             }
         }
     })
