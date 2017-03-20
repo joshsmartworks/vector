@@ -1,0 +1,398 @@
+//VARIABLES
+$main-color: #00AEF0
+$font-stack: 16px
+$white: #f7f7f7
+
+
+//MIXINS
+=loopCarousel()
+    height: 90vh
+    background-size: cover
+    background-position: center 
+    background-repeat: no-repeat
+
+=button($rad,$padding,$bg,$color)
+    -webkit-border-radius: $rad
+    -moz-border-radius: $rad
+    -ms-border-radius: $rad
+    border-radius: $rad
+
+    padding: $padding
+    background: $bg
+    color: $color
+    text-decoration: none
+    text-align: center    
+    
+html, body
+    color: #555
+    
+h1
+    font-size: 4em
+    padding-top: 155px
+    font-weight: 700
+
+h2
+    font-size: 2.4em
+    margin-bottom: 30px
+    text-align: center
+    
+hr
+    margin-top: 50px    
+
+    
+
+/*-------------------------------- Nav ----------------------------------------------*/   
+    
+.top-bar
+    position: relative
+    background: $main-color
+    height: 35px
+    overflow: hidden
+    padding-top: 6px
+    ul li a
+        color: $white
+.navbar-static-top
+    background: $white
+    height: 90px
+    border: none
+
+.navbar-default
+    height: 80px    
+
+.navbar-fixed-top 
+    top: auto
+    
+.navbar-brand
+    padding-top: 35px
+    font-size: 2.4em
+    font-weight: 700
+
+.top-fixed 
+    position: fixed
+    top: 0
+    height: 80px
+    margin-top: -10px
+    border-bottom: 1px solid #e3e3e3
+    z-index: 99
+    border-radius: 0
+    width: 100%
+    overflow-y: hidden
+    transition-property: all
+    transition-duration: .5s ease
+        transition-timing-function: cubic-bezier(0, 1, 0.5, 1)    
+
+
+.custom-navbar .navbar-toggle 
+    margin-top: 27px
+    margin-left: 10px
+
+.navbar-offcanvas .navbar-nav 
+    padding: 20px 20px 0 0
+    text-align: center
+    margin: 0px 33px
+    float: right
+    font-size: 1.2em
+
+.navmenu-default, .navbar-default .navbar-offcanvas 
+    border-color: #e3e3e3
+    z-index: 999999
+
+
+
+/*-------------------------------- Home Banner ----------------------------------------------*/   
+
+
+.owl-carousel
+    position: relative
+    margin-top: 40px
+    margin-bottom: 80px
+    .item 
+        width: 1400px
+          
+.loop-1
+    +loopCarousel()
+    background: url(../img/home-slideshow.jpg)
+    p
+        font-size: 1.4em
+        margin-bottom: 40px
+        margin-right: 15px
+
+    a
+        +button(30px, 20px 30px, $main-color, #f7f7f7)
+        font-size: 1.1em
+        font-weight: 700
+        text-transform: uppercase
+        transition: all .2 ease
+        &:hover
+            background: none
+            color: $main-color
+            border: 1px solid $main-color  
+        
+.loop-2
+    +loopCarousel()
+    background: url(../img/slideshow-accordion1.jpg)
+    p
+        font-size: 1.4em
+        margin-bottom: 40px
+        margin-right: 15px
+    a
+        +button(30px, 20px 30px, $main-color, #f7f7f7)
+        font-size: 1.1em
+        font-weight: 700
+        text-transform: uppercase
+        transition: all .2 ease
+        &:hover
+            background: none
+            color: $main-color
+            border: 1px solid $main-color          
+
+        
+/*-------------------------------- About Section ----------------------------------------------*/   
+
+        
+.about
+    margin-bottom: 50px
+    h2
+        span
+            color: $main-color
+    p
+        color: #555
+        font-size: 1.6em
+        letter-spacing: 2px
+        margin-bottom: 20px  
+        
+.vo-about-content
+    margin-top: 60px
+    img
+        width: 100%
+    p
+        font-size: .9em
+        
+        
+/*-------------------------------- How we Works Section ----------------------------------------------*/   
+
+.vo-works
+    margin-bottom: 80px
+    h2
+        margin-bottom: 40px
+        span
+            color: $main-color
+    i
+        color: $main-color
+    .vo-works-icon-plus-circle 
+        border-width: 2px
+        border-style: solid
+        height: 100px
+        width: 100px
+        border-radius: 50%
+        margin: 0 auto 25px auto
+        padding-top: 30px
+    h4
+        font-size: 1.6em
+        margin-bottom: 20px
+        
+        
+        
+/*-------------------------------- How we Works Section ----------------------------------------------*/   
+
+.vo-services
+    margin-bottom: 80px
+    h2
+        margin-bottom: 40px
+        span
+            color: $main-color
+.vo-services-block
+    margin-bottom: 30px
+    img
+        width: 100%
+    
+.vo-we-serve
+    margin-bottom: 30px
+    li a
+        font-size: 1.4em
+        color: #555
+        line-height: 40px
+
+.vo-we-serve>ul>li>i 
+    color: $main-color
+    font-size: 1.4em
+    padding-right: 15px
+    
+.vo-service-bg-call
+    background: url(../img/m31.jpg)
+    height: 40vh
+    background-size: cover
+    background-position: center left
+    margin-top: 50px
+    h4
+        color: $white
+        font-size: 1.8em
+        padding: 100px 0 50px 0
+        margin-left: 50px
+    .button-contact
+        margin: 115px 0 50px 0
+    a
+        +button(0, 20px 30px, none, $white)
+        font-size: 1.1em
+        font-weight: 700
+        border: 1px solid $white
+        text-transform: uppercase
+        transition: all .2 ease
+        &:hover
+            background: $main-color
+            color: $white
+            border: 1px solid $main-color  
+        
+/*-------------------------------- Support ----------------------------------------------*/   
+
+.vo-support
+    margin-bottom: 80px
+    h2
+        margin-bottom: 20px
+        span
+            color: $main-color
+            
+.vo-support-content
+    margin-top: 50px
+    h4
+        font-size: 1.4em
+    h3
+        font-size: 2em
+        margin-bottom: 20px
+        
+.panel-body p
+    font-size: 1.2em
+    line-height: 1.6em
+    
+/*-------------------------------- Careers ----------------------------------------------*/   
+
+.vo-career
+    margin-bottom: 150px
+    h2
+        margin-bottom: 20px
+        span
+            color: $main-color
+    h4
+        margin-bottom: 30px
+    p
+        margin-bottom: 60px
+    
+.button-career a
+    +button(0, 20px 30px, $main-color, $white)
+    font-size: 1.1em
+    font-weight: 700
+    border: 1px solid $main-color
+    text-transform: uppercase
+    transition: all .2 ease
+    &:hover
+        background: #007dac
+        color: $white
+        border: 1px solid #007dac 
+    
+/*-------------------------------- Contacts ----------------------------------------------*/   
+
+.vo-contact
+    h2
+        margin-bottom: 60px
+    button
+        +button(0, 15px 30px, $main-color, $white)
+        font-size: 1.1em
+        font-weight: 700
+        border: 1px solid $main-color
+        text-transform: uppercase
+        transition: all .2 ease
+        &:hover
+            background: #007dac
+            color: $white
+            border: 1px solid #007dac
+.vo-contact-form
+    padding-left: 40px
+form 
+    label
+        margin-left: 4px
+        font-size: 1.3em
+    .form-control
+        padding: 20px 14px
+        font-size: 16px
+        
+.vo-contact-map
+    margin-top: 70px
+    
+.media-body p
+    margin-left: 10px
+    font-size: 1.2em
+    color: #848484
+    
+.media-heading
+    font-size: 1.6em
+    margin-left: 10px
+    margin-bottom: 10px
+    
+.vo-contact-request
+    padding: 30px 0 50px 0
+    background: #007dac
+    h4
+        font-size: 2em
+        color: $white
+        margin-bottom: 30px
+    a
+        +button(0, 15px 20px, none, $white)
+        font-size: 1.1em
+        font-weight: 700
+        border: 1px solid $white
+        text-transform: uppercase
+        transition: all .2 ease
+        &:hover
+            background: $main-color
+            color: $white
+            border: 1px solid $main-color  
+        
+        
+/*-------------------------------- Footer ----------------------------------------------*/   
+
+footer
+    padding: 40px 0 0 0
+    background: #1a1e21
+    color: $white
+    h4
+        font-size: 1.6em
+    ul li,
+    ul li a,    
+    p    
+        color: #777
+.footer-social
+    margin-top: 30px
+    padding: 20px 0 10px 0
+    
+
+/*-------------------------------- Media Queries ----------------------------------------------*/   
+
+    
+@media screen and (max-width: 1000px) 
+    .vo-service-bg-call
+        h4
+            text-align: center
+            margin: 0 auto
+            padding: 50px 0 20px 0
+        .button-contact 
+            text-align: center
+            margin: 20px auto
+
+@media screen and (max-width: 340px)
+    .top-bar
+        height: 60px
+      
+
+           
+ 
+
+      
+    
+  
+        
+
+    
+
+
+
+  
