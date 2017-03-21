@@ -86,14 +86,12 @@
         
     <script>
         $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
+            $('#head-banner').owlCarousel({
                 loop:true,
-                margin:10,
-                autoplay:true,
+                autoPlay: true,
                 animateOut: 'fadeOut',
                 animateIn: 'fadeIn',
                 autoplayTimeout:5000,
-                autoWidth:true,
                 responsiveClass:true,
                 responsive:{
                     0:{
@@ -101,14 +99,25 @@
                         nav:true
                     },
                     600:{
-                        items:3,
-                        nav:true,
-                        autoWidth:true,
+                        items:1,
+                        nav:true
                     },
                     1000:{
-                        items:3,
+                        items:1,
                         nav:true,
+                        loop:false,
+                    },
+                    1200:{
+                    items:1,
+                    nav:true,
+                    loop:false,
+                    },
+                    1400:{
+                        items:1,
+                        nav:true,
+                        loop:false,
                     }
+                    
                 }
             })
         });

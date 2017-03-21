@@ -5,28 +5,28 @@ Template Name: Home Page
 
 get_header(); ?>
 
-	<div class="owl-carousel owl-theme">
-        <div class="item loop-2">
-          <div class="container">
-              <div class="row">
-               <div class="col-md-6">
-                <h1>You have a choice</h1>
+    <div class="banner-slider">
+        <div id="head-banner" class="owl-carousel owl-theme">
+            <div class="item">
+                 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/home-slideshow.jpg" alt="">
+                 <div class="vo-banner-content-1">
+                 <div class="col-md-8 col-md-push-4">
+                 <h1>You have a choice</h1>
                    <p>It is estimated that doctors in the U.S leave approximately $125 billion on the table each year due to poor billing practices.</p>
                    <a href="#about">Learn More</a>
-               </div>
-              </div>
-          </div>
-        </div>
-        <div class="item loop-1">
-           <div class="container">
-               <div class="row">
-                    <div class="col-md-6 col-md-push-6">
-                       <h1>Be one of us</h1>
-                        <p>It is estimated that doctors in the U.S leave approximately $125 billion on the table each year due to poor billing practices.</p>
-                        <a href="#about">Learn More</a>
+                 </div>
+                 </div>
+            </div>
+            <div class="item">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/slideshow-accordion1.jpg" alt="">
+                    <div class="vo-banner-content-2">
+                    <div class="col-md-8">
+                   <h1>Be one of us</h1>
+                    <p>It is estimated that doctors in the U.S leave approximately $125 billion on the table each year due to poor billing practices.</p>
+                    <a href="#about">Learn More</a>
                     </div>
-               </div>
-           </div>
+                  </div>
+            </div>
         </div>
     </div>
 

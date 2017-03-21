@@ -2,7 +2,7 @@
 Theme Name: Vector - Child Theme
 Version: 2.0.2
 Author: smartworks
-Author URI: http://www.smartworksintl.com
+Author URI: http://www.vector.com
 Description: Fully Responsive Vector Child Theme
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,4 +13,5 @@ Template: vector
 /* Theme customization starts here
 -------------------------------------------------------------- */
 
-@import url("../vector/assets/css/main.css");
+@import url("../vector/assets/css/style.css");
+

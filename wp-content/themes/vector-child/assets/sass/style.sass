@@ -6,8 +6,9 @@ $white: #f7f7f7
 
 //MIXINS
 =loopCarousel()
-    height: 90vh
-    background-size: cover
+    height: 100%
+    width: 100%
+    background-size: cover !important
     background-position: center 
     background-repeat: no-repeat
 
@@ -87,8 +88,7 @@ hr
     margin-left: 10px
 
 .navbar-offcanvas .navbar-nav 
-    padding: 20px 20px 0 0
-    text-align: center
+    padding: 20px 65px 0 0
     margin: 0px 33px
     float: right
     font-size: 1.2em
@@ -100,52 +100,26 @@ hr
 
 
 /*-------------------------------- Home Banner ----------------------------------------------*/   
-
-
-.owl-carousel
+.banner-slider
     position: relative
-    margin-top: 40px
+    min-height: 30rem
+    width: 100%
+    display: block
+    margin-top: 80px
     margin-bottom: 80px
-    .item 
-        width: 1400px
-          
-.loop-1
-    +loopCarousel()
-    background: url(../img/home-slideshow.jpg)
-    p
-        font-size: 1.4em
-        margin-bottom: 40px
-        margin-right: 15px
-
-    a
-        +button(30px, 20px 30px, $main-color, #f7f7f7)
-        font-size: 1.1em
-        font-weight: 700
-        text-transform: uppercase
-        transition: all .2 ease
-        &:hover
-            background: none
-            color: $main-color
-            border: 1px solid $main-color  
-        
-.loop-2
-    +loopCarousel()
-    background: url(../img/slideshow-accordion1.jpg)
-    p
-        font-size: 1.4em
-        margin-bottom: 40px
-        margin-right: 15px
-    a
-        +button(30px, 20px 30px, $main-color, #f7f7f7)
-        font-size: 1.1em
-        font-weight: 700
-        text-transform: uppercase
-        transition: all .2 ease
-        &:hover
-            background: none
-            color: $main-color
-            border: 1px solid $main-color          
-
+    .item
+        img
+            width: 100%
+            display: block
+            height: auto
+    .vo-banner-content-1,
+    .vo-banner-content-2 
+        display: block
+        position: absolute
+        top: -30px
+        margin-left: 20px
+    .vo-banner-content-1
+        left: 370px    
         
 /*-------------------------------- About Section ----------------------------------------------*/   
 
