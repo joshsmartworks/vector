@@ -65,7 +65,7 @@
         
     <script>window.jQuery || document.write('<script src="<?php bloginfo('template_directory');?>/assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="<?php bloginfo('template_directory');?>/assets/js/vendor/bootstrap.min.js"></script>
-    <script src="<?php bloginfo('template_directory');?>/assets/js/vendor/owl.carousel.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/assets/js/vendor/owl.carousel.js"></script>
     <script src="<?php bloginfo('template_directory');?>/assets/js/vendor/wow.js"></script>
     <script src="<?php bloginfo('template_directory');?>/assets/js/vendor/jquery-easing.js"></script>
     <script src="<?php bloginfo('template_directory');?>/assets/js/vendor/custom.js"></script>
@@ -85,44 +85,36 @@
     </script>
         
     <script>
-        $(document).ready(function(){
-            $('#head-banner').owlCarousel({
-                loop:true,
-                autoPlay: true,
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
                 animateOut: 'fadeOut',
                 animateIn: 'fadeIn',
-                autoplayTimeout:5000,
-                responsiveClass:true,
-                responsive:{
-                    0:{
-                        items:1,
-                        nav:true
+                autoplay: true,
+                autoplayTimeout:5000, 
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
                     },
-                    600:{
-                        items:1,
-                        nav:true
+                    600: {
+                        items: 1,
+                        nav: true,
+                        loop: true,
                     },
-                    1000:{
-                        items:1,
-                        nav:true,
-                        loop:false,
-                    },
-                    1200:{
-                    items:1,
-                    nav:true,
-                    loop:false,
-                    },
-                    1400:{
-                        items:1,
-                        nav:true,
-                        loop:false,
+                    1000: {
+                        items: 1,
+                        nav: true,
+                        loop: true,
+                        margin: 20
                     }
-                    
                 }
             })
-        });
-
+        })
     </script>
-
+    
+    
 </body>
 </html>

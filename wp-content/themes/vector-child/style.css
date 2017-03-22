@@ -13,5 +13,5 @@ Template: vector
 /* Theme customization starts here
 -------------------------------------------------------------- */
 
-@import url("../vector/assets/css/style.css");
+@import url("../vector-child/assets/css/style.css");
 

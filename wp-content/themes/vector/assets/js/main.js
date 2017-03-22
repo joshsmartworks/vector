@@ -11,32 +11,6 @@ $(function(){
 });
 
 
-$(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        margin:10,
-        autoplay: true,
-        autoplayTimeout:5000, 
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:1,
-                nav:false
-            },
-            1000:{
-                items: 1,
-                autoWidth:true,
-            }
-        }
-    })
-});
-
 wow = new WOW(
     {
         boxClass:     'wow',      // default
