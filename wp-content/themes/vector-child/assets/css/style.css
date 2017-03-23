@@ -83,6 +83,8 @@ hr {
   left: 60px;
   padding-left: 15px;
   padding-right: 15px; }
+  .vo-banner-content h1 {
+    margin-top: 50px; }
   .vo-banner-content a {
     margin-left: 15px;
     border-radius: 50px;
@@ -91,12 +93,13 @@ hr {
     color: #f7f7f7;
     text-decoration: none;
     text-align: center;
-    font-size: 1.4em;
-    top: 20px; }
+    font-size: 1.2em;
+    top: 20px;
+    text-transform: uppercase; }
   .vo-banner-content p {
     margin-left: 15px;
     font-size: 1.4em;
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
 
 .owl-carousel .owl-item img {
   display: block;
@@ -147,7 +150,7 @@ hr {
     font-size: 1.6em;
     margin-bottom: 20px; }
 
-/*-------------------------------- How we Works Section ---------------------------------------------- */
+/*-------------------------------- Service Section ---------------------------------------------- */
 .vo-services {
   margin-bottom: 80px; }
   .vo-services h2 {
@@ -225,7 +228,7 @@ hr {
 
 /*-------------------------------- Careers ---------------------------------------------- */
 .vo-career {
-  margin-bottom: 150px; }
+  margin-bottom: 100px; }
   .vo-career h2 {
     margin-bottom: 20px; }
     .vo-career h2 span {
@@ -235,23 +238,25 @@ hr {
   .vo-career p {
     margin-bottom: 60px; }
 
-.button-career a {
-  border-radius: 0;
-  padding: 20px 30px;
-  background: #00AEF0;
-  color: #f7f7f7;
-  text-decoration: none;
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: 700;
-  border: 1px solid #00AEF0;
-  text-transform: uppercase;
-  -webkit-transition: all 0.2 ease;
-          transition: all 0.2 ease; }
-  .button-career a:hover {
-    background: #007dac;
+.button-career {
+  margin-bottom: 50px; }
+  .button-career a {
+    border-radius: 0;
+    padding: 20px 30px;
+    background: #00AEF0;
     color: #f7f7f7;
-    border: 1px solid #007dac; }
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    border: 1px solid #00AEF0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2 ease;
+            transition: all 0.2 ease; }
+    .button-career a:hover {
+      background: #007dac;
+      color: #f7f7f7;
+      border: 1px solid #007dac; }
 
 /*-------------------------------- Contacts ---------------------------------------------- */
 .vo-contact h2 {
