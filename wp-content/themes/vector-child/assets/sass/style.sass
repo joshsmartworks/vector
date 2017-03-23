@@ -66,6 +66,8 @@ hr
     padding-top: 35px
     font-size: 2.4em
     font-weight: 700
+    color: $main-color !important
+        
 
 .top-fixed 
     position: fixed
@@ -100,22 +102,37 @@ hr
 
 /*-------------------------------- Home Banner ----------------------------------------------*/   
 
-.banner-slider 
+#banner-slide 
     position: relative
     display: block
-    margin-bottom: 80px
+    margin-bottom: 60px
+ 
 .vo-banner-content
     position: absolute
     top: 0
-    left: 0
+    left: 60px
     padding-left: 15px
     padding-right: 15px
-    width: 70%
+    a
+        margin-left: 15px
+        +button(50px,15px 30px,$main-color,$white)
+        font-size: 1.4em
+        top: 20px
+        
+    p
+        margin-left: 15px
+        font-size: 1.4em
+        margin-bottom: 30px
+        
 .owl-carousel .owl-item img 
     display: block
     width: 100%
     height: 90vh
     margin-top: 78px
+    
+.owl-theme .owl-nav,
+.owl-theme .owl-dots .owl-dot
+    display: none
 
    
         
@@ -356,6 +373,10 @@ footer
         .button-contact 
             text-align: center
             margin: 20px auto
+            
+@media screen and (max-width: 760px)
+    .vo-banner-content
+        left: 0px
 
 @media screen and (max-width: 340px)
     .top-bar

@@ -11,17 +11,29 @@ get_header(); ?>
             <div class="item loop-1">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pexels-photo.jpg" alt="">
                 <div class="vo-banner-content vo-1">
-                    <h1>You have a choice</h1>
-                    <p>It is estimated that doctors in the U.S leave approximately $125 billion on the table each year due to poor billing practices.</p>
-                    <a href="#about">Learn More</a>
+                   <div class="container">
+                       <div class="row">
+                        <div class="col-md-8">
+                            <h1>You have a choice</h1>
+                            <p>It is estimated that doctors in the U.S leave approximately $125 billion on the table each year due to poor billing practices.</p>
+                            <a href="#about">Learn More</a>
+                       </div>
+                    </div>   
+                   </div>
                 </div>
             </div>
             <div class="item loop-2">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/2.jpg" alt="">
                 <div class="vo-banner-content vo-2">
-                    <h1>You have a choice</h1>
-                    <p>It is estimated that doctors in the U.S leave approximately $125 billion on the table each year due to poor billing practices.</p>
-                    <a href="#about">Learn More</a>
+                  <div class="container">
+                      <div class="row">
+                       <div class="col-md-8">
+                        <h1>You have a choice</h1>
+                        <p>It is estimated that doctors in the U.S leave approximately $125 billion on the table each year due to poor billing practices.</p>
+                        <a href="#about">Learn More</a>
+                      </div>
+                  </div>
+                   </div>
                 </div>
             </div>
         </div>
@@ -334,7 +346,7 @@ get_header(); ?>
                 <div class="button-career text-center">
                     <a href="#" class="">Apply Now</a>
                 </div>
-            </div>
+            </div><hr>
         </div>
     </section>
 
