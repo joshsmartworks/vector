@@ -1,15 +1,3 @@
-var num= 30;
-
-$(function(){
-    $(window).bind('scroll', function(){
-        if($(window).scrollTop() > num){
-            $('.navbar-default').addClass('top-fixed');
-        }else{
-            $('.navbar-default').removeClass('top-fixed');
-        }
-    });
-});
-
 
 wow = new WOW(
     {
@@ -23,6 +11,7 @@ wow = new WOW(
 wow.init();
 
 (function($){
+    "use strict"; // Start of use strict
 
     $('a.page-scroll').bind('click',function(){
         var $anchor = $(this), scrollTop = 0;
@@ -36,6 +25,19 @@ wow.init();
         }, 800, 'easeInOutExpo');  
         event.preventDefault();
     });
+    
+    // Highlight the top nav as scrolling occurs
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 200
+    });
+    
+    // Offset for Main Navigation
+    $('#mainNav').affix({
+        offset: {
+            top: 60
+        }
+    })
 
 })(jQuery);
 

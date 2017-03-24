@@ -46,7 +46,7 @@
         </div>
     </div>     
 
-    <nav class="navbar navbar-fixed-top navbar-default custom-navbar" role="navigation">
+    <nav id="mainNav" class="navbar navbar-fixed-top navbar-default custom-navbar" role="navigation">
         <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
@@ -54,7 +54,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Vector</a>
+          <a class="navbar-brand" href="#home" class="page-scroll">Vector</a>
         </div>
         
         <?php

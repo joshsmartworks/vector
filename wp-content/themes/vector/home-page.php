@@ -344,7 +344,7 @@ get_header(); ?>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quae consequuntur laudantium similique ducimus, cumque perspiciatis rem voluptatibus laborum. Veniam quod autem eveniet cum eius quae quia obcaecati quaerat ratione.</p>
                 </div>
                 <div class="button-career text-center">
-                    <a href="#" class="">Apply Now</a>
+                    <a href="#" class="">See More Job Career</a>
                 </div>
             </div><hr>
         </div>
